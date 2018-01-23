@@ -2,8 +2,8 @@
 
 source /etc/profile
 
-cd /userdata1/server_script/logAnalytics-repo
+cd /userdata1/server_script/logAnalytics-mail-repo
 
 git pull
 
-/userdata1/software/jdk1.8/bin/java -jar ./LogAnalytics.jar --dateStr=`date -d yesterday +%Y-%m-%d`
+/userdata1/software/jdk1.8/bin/java -jar ./LogAnalytics-mail.jar --dateStr=`date -d yesterday +%Y-%m-%d`
