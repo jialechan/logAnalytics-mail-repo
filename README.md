@@ -1,1 +1,0 @@
-# logAnalytics-mail-repo
